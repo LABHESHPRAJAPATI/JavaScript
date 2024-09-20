@@ -1,2 +1,3 @@
 # JavaScript
-learn Javascript  and build projects in javascript
+
+**learn Javascript and build projects in javascript**
