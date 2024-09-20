@@ -15,3 +15,25 @@ console.log(typeof bol,bol);
 console.log(typeof date,date);
 
 
+// console.log(2==2);
+// console.log(2>2);
+// console.log(2>=2);
+// console.log(2<=2);
+// console.log(2<2);
+// console.log(2!=2);
+// console.log(2===2);
+
+console.log("2"==2);
+console.log("2">=2);
+console.log("2"<=2);
+console.log("2"!=2);
+console.log("2"!==2);
+console.log("2">2);
+console.log("2"<2);
+
+console.log(2===2);
+
+
+
+
+
