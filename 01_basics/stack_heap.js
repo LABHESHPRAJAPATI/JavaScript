@@ -31,4 +31,8 @@ numberTwo.reverse()
 console.log(number);
 console.log(numberTwo);
 
+let one=new Number(200)
+let two=new Number(200)
 
+console.log(one==two);
+console.log(one===two);
