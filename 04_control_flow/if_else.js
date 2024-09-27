@@ -64,3 +64,25 @@ let days=new Date().getDay()
 
 //         break;
 // }
+
+// days==5?console.log("friday"):console.log("not match");
+
+
+// let age=null
+
+// let x=age??10;
+// console.log(x)
+
+
+// let age= 19
+// let score=50
+
+// if (age>=18 || score>70) {
+//     console.log("you can drive");
+    
+// }else{
+//     console.log("you can't drive");
+    
+// }
+
+
