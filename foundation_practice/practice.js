@@ -212,3 +212,160 @@ function Fibonacci(num) {
 }
 //  console.log(Fibonacci(5));
  
+
+// Q11:Write a program that takes two numbers as input from the user and prints their sum, difference, product, and quotient.
+
+// function Input(num1,num2) {
+//    return num1+num2
+   
+// }
+// function Input(num1,num2) {
+//    return num1-num2
+   
+// }
+// function Input(num1,num2) {
+//    return num1*num2
+   
+// }
+// function Input(num1,num2) {
+// let total
+
+//   total= num1/num2
+  
+//   return total.toFixed()
+// }
+
+// console.log(Input(12,10));
+
+// Q12:Write a program that takes a number as input and determines whether it is odd or even.
+
+
+// function Input1(num) {
+//     if (num%2==0) {
+//        return `${num}: is even `;
+        
+//     }else{
+//        return `${num}: is odd `; 
+//     }
+// }
+//  console.log(Input1(12));
+ 
+// Q13:Write a program that takes three numbers as input and prints the largest one.
+
+function Input2(num1,num2,num3) {
+let largest;
+     if (isNaN(num1)||isNaN(num2)||isNaN(num3)) {
+        return "please enter valid number"
+
+     }
+    //    return Math.max(num1,num2,num3)
+     if (num1>=num2 && num1>=num3) {
+        largest=num1
+     }else if(num2>=num1 && num2>=num3){
+         largest=num2
+     }else {
+        largest=num3
+     }
+return largest
+}
+
+// console.log(Input2(1,10,30));
+
+// Q13:Write a program that prints all numbers from 1 to 10 using a loop.
+
+// for (let i = 1; i <= 10; i++) {
+//  console.log(i);
+// }
+
+let i=1
+// while (i<=10) {
+//     console.log(i);
+//     i++
+// }
+
+// do {
+//     console.log(i);
+//     i++
+// } while (i<=10);
+
+// Q14:Write a program that prints the multiplication table of a number input by the user.
+
+function multiplicationTable(num) {
+    for (let i = 1; i <= 10; i++) {
+       console.log(i*num);
+       
+        
+    }
+}
+
+// multiplicationTable(17)
+
+// Q15:Write a program that calculates the factorial of a number entered by the user.
+
+function factorial1(num) {
+    let result=1;
+    for (let i = 1; i <= num; i++) {
+       result*=i
+    }
+    
+    return result
+}
+
+// console.log(factorial1(10));
+
+
+// Q16:Write a program that takes a string as input and checks if it's a palindrome (a word that reads the same forward and backward).
+
+
+function palindrome(str) {
+   let word= str.toLowerCase().replace(/[^a-z0-9]/g, '')
+   let reverword= word.split('').reverse().join('')
+console.log(word);
+console.log(reverword);
+
+   if (word===reverword) {
+    return `${str} is palindrone`
+   }else{
+       return `${str} is  not palindrone`
+   }
+}
+
+
+// console.log(palindrome("pop"));
+
+
+// Q17:Write a program that generates the first N numbers of the Fibonacci sequence, where N is entered by the user.
+
+function Fibonacci(num) {
+    let arr=[0,1]
+
+    for (let i = 2; i <num; i++) {
+       arr.push(arr[i-1]+arr[i-2])
+        
+    }
+    return arr
+}
+//  console.log(Fibonacci(11));
+
+
+// Q18:Write a program that functions as a basic calculator. The user should input two numbers and an operator (+, -, *, /), and the program should perform the corresponding operation.
+
+function sum(num1,num2) {
+    return num1+num2
+}
+function subtraction(num1,num2) {
+    return num1-num2
+}
+function multiplication(num1,num2) {
+    return num1*num2
+}
+function divide(num1,num2) {
+    return num1/num2
+}
+ 
+// console.log(sum(8,4));
+// console.log(subtraction(8,4));
+// console.log(multiplication(8,4));
+// console.log(divide(8,4));
+
+
